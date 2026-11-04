@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "required": [
+    ".github/FUNDING.yml",
+    "README.md",
+    "ARCHITECTURE.md",
+    "docs/maintainer-guide.md",
+    ".github/CODEOWNERS",
+    ".github/dependabot.yml",
+    ".github/workflows/ci.yml",
+    ".repo-layout.yml",
+    "tests/test_funding.py",
+    "tools/check_repo_layout.py"
+  ],
+  "root": {
+    "allow": [
+      "README.md",
+      "ARCHITECTURE.md",
+      "LICENSE",
+      ".repo-layout.yml",
+      ".gitignore"
+    ],
+    "deny": [
+      "*.py"
+    ]
+  },
+  "directories": {
+    ".github": {
+      "allow": [
+        "FUNDING.yml",
+        "CODEOWNERS",
+        "dependabot.yml",
+        "ci.yml"
+      ]
+    },
+    "docs": {
+      "allow": [
+        "maintainer-guide.md"
+      ]
+    },
+    "tools": {
+      "allow": [
+        "check_repo_layout.py"
+      ]
+    },
+    "tests": {
+      "allow": [
+        "test_funding.py"
+      ]
+    }
+  }
+}
