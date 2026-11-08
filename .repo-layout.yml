@@ -31,7 +31,8 @@
         "CODEOWNERS",
         "dependabot.yml",
         "ci.yml",
-        "vuln-scan.yml"
+        "vuln-scan.yml",
+        "privacy-guard.yml"
       ]
     },
     "docs": {
