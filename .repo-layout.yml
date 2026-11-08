@@ -30,7 +30,8 @@
         "FUNDING.yml",
         "CODEOWNERS",
         "dependabot.yml",
-        "ci.yml"
+        "ci.yml",
+        "vuln-scan.yml"
       ]
     },
     "docs": {
