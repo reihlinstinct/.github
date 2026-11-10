@@ -32,7 +32,8 @@
         "dependabot.yml",
         "ci.yml",
         "vuln-scan.yml",
-        "privacy-guard.yml"
+        "privacy-guard.yml",
+        "gemini-review.yml"
       ]
     },
     "docs": {
