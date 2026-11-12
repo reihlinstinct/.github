@@ -11,7 +11,7 @@ class FundingTests(unittest.TestCase):
     def test_exact_approved_link(self):
         self.assertEqual((ROOT / ".github/FUNDING.yml").read_text(), 'custom: ["https://paypal.me/reihalle"]\n')
 
-    def test_only_funding_is_inheritable(self):
+    def test_only_funding_and_pr_template_are_inheritable(self):
         tracked = subprocess.check_output(["git", "ls-files"], cwd=ROOT, text=True).splitlines()
         forbidden = {"SECURITY.md", "CONTRIBUTING.md", "SUPPORT.md", "CODE_OF_CONDUCT.md", "ACCESSIBILITY.md", "VULNERABILITY_REPORT.yml", "VULNERABILITY_REPORT.yaml"}
         self.assertFalse([p for p in tracked if Path(p).name in forbidden or "/ISSUE_TEMPLATE/" in p or "/DISCUSSION_TEMPLATE/" in p])

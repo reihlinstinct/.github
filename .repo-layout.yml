@@ -51,12 +51,6 @@
       "allow": [
         "test_funding.py"
       ]
-    },
-    ".github/ISSUE_TEMPLATE": {
-      "allow": [
-        "bug_report.md",
-        "feature_request.md"
-      ]
     }
   }
 }
