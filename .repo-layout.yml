@@ -33,7 +33,8 @@
         "ci.yml",
         "vuln-scan.yml",
         "privacy-guard.yml",
-        "gemini-review.yml"
+        "gemini-review.yml",
+        "PULL_REQUEST_TEMPLATE.md"
       ]
     },
     "docs": {
